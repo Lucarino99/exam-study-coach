@@ -29,6 +29,14 @@ mobile app. Otherwise, do these three first — about 10 minutes.
    GitHub account to keep things simple).
 2. Upgrade to a **Pro, Max, or Team** plan at **[claude.ai/upgrade](https://claude.ai/upgrade)**.
    This is the part that **costs money** — a free Claude account can't run routines.
+   Approximate prices (**USD**, as of early 2026 — check
+   **[claude.ai/pricing](https://claude.ai/pricing)** for current rates):
+   - **Pro** — $20/month, or $17/month billed annually ($200/year). **Enough for this coach.**
+   - **Max (5×)** — $100/month. More usage headroom; optional.
+   - **Max (20×)** — $200/month. Heaviest usage; optional.
+   - **Team** — ~$25–30/user/month (multi-seat).
+
+   Pro is all you need to run the study coach — Max only buys extra usage headroom.
 3. Open **[claude.ai/code](https://claude.ai/code)** (Claude Code on the web). If
    **Routines** is a research preview that needs turning on, enable it here or in
    your account settings. If you don't see Routines yet, it may not be rolled out
