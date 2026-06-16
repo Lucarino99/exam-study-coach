@@ -40,6 +40,11 @@ You need **all** of these. If any is missing, the coach cannot run:
    is useless to you.** Onboarding is not considered complete until a **test
    notification is confirmed received on your phone.**
 
+> 🆕 **Brand new to GitHub or Claude?** You don't need any prior experience.
+> **[SETUP.md → Step 0](SETUP.md#step-0--starting-from-absolute-zero)** walks you
+> through creating both accounts and the mobile app from scratch, with a plain-language
+> glossary, before anything else. GitHub is free; the only cost is the Claude plan.
+
 ## "Use this template"
 
 1. Click **“Use this template” → “Create a new repository”** at the top of this

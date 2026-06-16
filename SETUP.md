@@ -7,6 +7,54 @@ finish with a scheduled routine that drills you and pings your phone.
 > a Claude **Pro/Max/Team** subscription with **Claude Code on the web** and
 > **Routines (research preview)** enabled; **GitHub connected** to Claude; the
 > **Claude mobile app** installed with **notifications ON**.
+>
+> 🆕 **Never used GitHub or Claude before?** Don't worry — **[Step 0](#step-0--starting-from-absolute-zero)** below sets up both accounts from scratch first.
+
+---
+
+## Step 0 — Starting from absolute zero
+
+Skip this if you already have a GitHub account, a paid Claude plan, and the Claude
+mobile app. Otherwise, do these three first — about 10 minutes.
+
+### 0a. Create a free GitHub account
+1. Go to **[github.com/signup](https://github.com/signup)**.
+2. Enter an email, a password, and **pick a username** — this becomes part of your
+   repo's web address, so choose something you're happy to keep (lowercase, your
+   name is a safe bet).
+3. Verify your email when GitHub asks. GitHub is **free**; you don't need a paid plan.
+
+### 0b. Get a Claude plan with Claude Code + Routines
+1. Go to **[claude.ai](https://claude.ai)** and sign up (you can sign in *with* your
+   GitHub account to keep things simple).
+2. Upgrade to a **Pro, Max, or Team** plan at **[claude.ai/upgrade](https://claude.ai/upgrade)**.
+   This is the part that **costs money** — a free Claude account can't run routines.
+3. Open **[claude.ai/code](https://claude.ai/code)** (Claude Code on the web). If
+   **Routines** is a research preview that needs turning on, enable it here or in
+   your account settings. If you don't see Routines yet, it may not be rolled out
+   to your account — that's the one thing this template can't work around.
+
+### 0c. Install the Claude mobile app and turn on notifications
+1. Install **Claude** from the **App Store** (iPhone) or **Google Play** (Android)
+   and sign in with the same account.
+2. In the app, **turn notifications ON**, and allow notifications for Claude in
+   your **phone's settings** too. Enable **Remote Control** (control of Claude Code
+   sessions) if the app offers it.
+3. This is **not optional** — the coach pings your phone for every question, and
+   setup isn't finished until a test ping reaches you (Step 6).
+
+> **New-to-this glossary** (you'll see these words below):
+> - **Repository ("repo")** — a project folder on GitHub. Yours holds the coach's
+>   config and your progress.
+> - **Template** — a starter repo you copy. "Use this template" makes *your own*
+>   copy; you never change this original.
+> - **`main`** — the primary version of your repo. The coach saves your progress here.
+> - **Routine** — a scheduled Claude task that runs by itself in the cloud. This is
+>   what asks you questions on a timer.
+> - **Cron** — the little code (e.g. `0 14 * * *`) that says *when* a routine runs.
+>   The wizard hands you the exact one to paste — you don't need to learn it.
+
+Once those three are done, continue with Step 1. 👇
 
 ---
 
