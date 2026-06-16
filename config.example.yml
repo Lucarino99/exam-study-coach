@@ -1,0 +1,42 @@
+# config.example.yml — documented schema for the exam study coach.
+#
+# You normally do NOT write this by hand. On the FIRST run of the routine (when no
+# config.yml exists), the coach launches a conversational wizard that interviews
+# you and writes config.yml for you. This file documents every field in case you
+# want to pre-fill or edit config.yml directly.
+#
+# To pre-configure manually: copy this file to `config.yml`, fill it in, commit,
+# and push to main. The presence of config.yml SKIPS the wizard.
+
+# Exam name — be specific; the coach uses this to draw on its knowledge of the exam.
+# Examples: "SOA INV-201 (Quantitative Finance)", "CFA Level 1", "FRM Part 1",
+#           "CAS Exam MAS-I".
+exam: "SOA INV-201 (Quantitative Finance)"
+
+# Your sitting date, YYYY-MM-DD. Used for exam-countdown context and pacing.
+exam_date: "2026-07-15"
+
+# IANA timezone. All question/grade timestamps and the schedule use this.
+# Examples: "America/New_York", "America/Chicago", "Europe/London".
+timezone: "America/New_York"
+
+# Question style:
+#   qualitative  — define / explain / compare / interpret / why (no calculation)
+#   quantitative — numeric problems and computations
+#   mixed        — a blend of both
+question_style: qualitative
+
+# Difficulty. Free text the coach interprets, e.g.:
+#   "intro", "exam-level", "hard", "above exam-level".
+difficulty: exam-level
+
+# Points per question. The grader scores out of this number.
+grading_scale: 10
+
+# Path to the topic map the coach rotates across. The wizard writes
+# `syllabus/derived-map.md`; point this at whatever map file you use.
+syllabus_map: syllabus/derived-map.md
+
+# Optional human-readable note describing your intended daily drill slots.
+# Informational only — the actual cadence is set by the routine's cron schedule.
+schedule_note: "ET 10:00,11:30,13:00,14:30,16:00,17:30,19:00,20:30"

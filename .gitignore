@@ -1,0 +1,9 @@
+# Ignore ALL user-supplied study materials — they may be copyrighted and this is
+# a PUBLIC repository. Only the explanatory README is tracked.
+materials/*
+!materials/README.md
+
+# Local noise
+.DS_Store
+Thumbs.db
+*.log
